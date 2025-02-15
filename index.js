@@ -12,9 +12,11 @@ document.querySelector('.submit').addEventListener('click', function(){
         console.log('successful')
 
         document.querySelector('.successfull').classList.remove('hidden')
+        document.querySelector('.unsuccessfull').classList.add('hidden')
     }
     else{
         document.querySelector('.unsuccessfull').classList.remove('hidden')
+        document.querySelector('.successfull').classList.add('hidden')
     } 
 
 })
